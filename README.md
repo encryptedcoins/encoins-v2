@@ -2,7 +2,7 @@
 
 ## Relay server installation
 
-This is a guide to run a relay server for ENCOINS v2. The server was developed by zkFold and is also known as the UTxO Accumulator server.
+This is a guide to run a relay server for ENCOINS v2. The server was developed by @zkFold and is also known as the UTxO Accumulator server.
 
 ### Prerequisites
 
@@ -83,7 +83,7 @@ The server requires several cryptographic libraries to be installed on your mach
    ```
 
 4. **Configure the server**:
-   After deployment, you need to manually update the configuration files:
+   After setup is complete, you need to manually update the configuration files:
 
    a. **Choose a configuration file** to edit (e.g., `config/100ada.yaml` for a 100 ADA pool, etc.)
 
