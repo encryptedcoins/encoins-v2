@@ -2,7 +2,7 @@
 
 ## Relay server installation
 
-This is a guide to run a relay server for ENCOINS v2. The server was developed by @zkFold and is also known as the UTxO Accumulator server.
+This is a guide to run a relay server for ENCOINS v2. The server was developed by zkFold and is also known as the UTxO Accumulator server.
 
 ### Prerequisites
 
