@@ -109,11 +109,11 @@ The server requires several cryptographic libraries to be installed on your mach
    ```
 
 5. **Verify the server installation**:
-   - Check that the binary exists and is executable
+   - Check that the binary `utxo-accumulator-server` exists and is executable
    - Verify all required configuration files and directories are present:
      - `config/` directory with YAML configuration files
      - `crs.json` (common reference string for zero-knowledge proofs)
-     - `database/cache.json` (database cache file)
+     - `database/cache.json` (local database cache file)
      - `web/openapi/api.json` (API documentation)
 
 6. **Test the server**:
@@ -122,3 +122,7 @@ The server requires several cryptographic libraries to be installed on your mach
    ./utxo-accumulator-server --help
    ```
 7. **Launch the server**:
+   Use the following command to run the server for a 100 ADA pool:
+   ```bash
+   ./utxo-accumulator-server run -c config/100ada.yaml --clean-db
+   ```
